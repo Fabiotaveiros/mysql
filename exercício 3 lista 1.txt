@@ -1,0 +1,16 @@
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Herrod Wilkerson",2431,17,"Ensino Médio",9);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Martina Tyson",9920,15, "Ensino Fundamental 2",6);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Holmes K. Fisher",6298,10, "Ensino Fundamental 1",5);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Imani I. Orr",4906,20,"Ensino Médio",7.5);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Hoyt Patterson",8465,13, "Ensino Fundamental 2",9.7);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Caryn I. Poole",2627,18,"Ensino Médio",3.1);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Katelyn V. Hanson",7915,6, "Ensino Infantil",10);
+insert into tb_estudantes (nome, matricula, idade, curso,nota) values ("Dawn L. Kennedy",9187,9, "Ensino Fundamental 1",6.5);
+
+select * from tb_estudantes;
+select * from tb_estudantes where nota > 7;
+select * from tb_estudantes where nota < 7;
+
+update tb_estudantes set nota = 5 where id = 1;
+
+select * from tb_estudantes;
